@@ -1,0 +1,49 @@
+/**ATTRIBUTION
+All images used belong to
+Markus Spiske - https://500px.com/markusspiske
+Yinan Chen - https://500px.com/webmaster85
+Fahim Akhter - https://500px.com/fahimakhter
+**/
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-top: 2.5%;
+}
+
+picture {
+    width: 90%;
+}
+
+img {
+    width: 90%;
+    transition: transform 1.5s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(720deg);
+    z-index: 20;
+}
+
+@media screen and (min-width: 600px){
+    li {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    li {
+        width: 25%;
+    }
+}
